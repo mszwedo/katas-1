@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="OPTIMUS" name="com.lesd.romannumerals.acceptance.AcceptanceTests" tests="30" time="0.021" timestamp="2012-09-25T04:10:33">
+  <properties />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForOneIsI" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForTwoIsII" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForThreeIsIII" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFourIsIV" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFiveIsV" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForSixIsVI" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForNineIsIX" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForTenIsX" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForElevenIsXI" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFourteenIsXIV" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFifteenIsXV" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForNineteenIsXIX" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForTwentyIsXX" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFortyIsXL" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFortyNineIsXLIX" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFiftyIsL" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFiftyOneIsLI" time="0.0010" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForNinetyIsXC" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForNinetyNineIsXCIX" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForOneHundredIsC" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForOneHundredAndOneIsCI" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFourHundredIsCD" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFourHundredNinetyNineIsCDXCIX" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFiveHundredIsD" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForFiveHundredAndOneIsDI" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForNineHundredIsCM" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForNineHundredNinetyNineIsCMXCIX" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForOneThousandIsM" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralForOneThousandAndOneIsMI" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.acceptance.AcceptanceTests" name="romanNumeralFor4999IsMMMMCMXCIX" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,6 @@
+!3 !-slim-!
+|'''Date: '''|!-12:18:18 PM (MDT) on Tuesday, September 25, 2012-!|
+|'''Test Page: '''|.RomanNumerals|
+|'''Command: '''|!-java -cp fitnesse.jar;build/classes/test;build/classes/main;test-lib/fitnesse.jar fitnesse.slim.SlimService  8088-!|
+|'''Exit code: '''|!-0-!|
+|'''Time elapsed: '''|!-0.647 seconds-!|

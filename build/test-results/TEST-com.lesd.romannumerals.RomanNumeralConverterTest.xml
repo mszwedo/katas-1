@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="OPTIMUS" name="com.lesd.romannumerals.RomanNumeralConverterTest" tests="10" time="0.0070" timestamp="2012-09-25T04:10:33">
+  <properties />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test1" time="0.0010" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test2" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test3" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test4" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test5" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test6" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test7" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test9" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="test10" time="0.0" />
+  <testcase classname="com.lesd.romannumerals.RomanNumeralConverterTest" name="testMultiple" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

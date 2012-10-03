@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" hostname="OPTIMUS" name="com.lesd.primefactors.PrimeFactorsTest" tests="7" time="0.0060" timestamp="2012-09-25T04:10:33">
+  <properties />
+  <testcase classname="com.lesd.primefactors.PrimeFactorsTest" name="testOne" time="0.0010" />
+  <testcase classname="com.lesd.primefactors.PrimeFactorsTest" name="testTwo" time="0.0" />
+  <testcase classname="com.lesd.primefactors.PrimeFactorsTest" name="testThree" time="0.0" />
+  <testcase classname="com.lesd.primefactors.PrimeFactorsTest" name="testFour" time="0.0" />
+  <testcase classname="com.lesd.primefactors.PrimeFactorsTest" name="testSix" time="0.0" />
+  <testcase classname="com.lesd.primefactors.PrimeFactorsTest" name="testEight" time="0.0010" />
+  <testcase classname="com.lesd.primefactors.PrimeFactorsTest" name="testNine" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
