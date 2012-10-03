@@ -4,3 +4,10 @@
 *.jar
 *.war
 *.ear
+
+build
+FitNesseRoot/files/testResults
+
+FitNesseRoot/**/*.zip
+
+FitNesseRoot/ErrorLogs
