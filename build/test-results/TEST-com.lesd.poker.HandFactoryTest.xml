@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" hostname="OPTIMUS" name="com.lesd.poker.HandFactoryTest" tests="1" time="0.0020" timestamp="2012-09-25T04:10:33">
-  <properties />
-  <testcase classname="com.lesd.poker.HandFactoryTest" name="testCreateHand" time="0.0010" />
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
