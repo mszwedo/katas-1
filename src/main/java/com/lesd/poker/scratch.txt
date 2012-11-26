@@ -1,0 +1,13 @@
+start adding tests for poker hand evaluator
+simplify test of game to use mocks and determine winner
+write a comparator and test
+
+
+
+
+
+store results in db
+more than two players
+different type of game
+service interface
+front end

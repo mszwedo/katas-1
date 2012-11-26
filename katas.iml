@@ -33,6 +33,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="test-lib" level="project" />
   </component>
 </module>
 
