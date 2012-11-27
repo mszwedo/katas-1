@@ -55,7 +55,11 @@ public class PokerHandEvaluator
    {
       PokerHandResult pokerHandResult = null;
 
-      pokerHandResult = checkThreeOfAKind(rankList, rankCountMap);
+      pokerHandResult = checkStraight(rankList);
+      if (pokerHandResult == null)
+      {
+         pokerHandResult = checkThreeOfAKind(rankList, rankCountMap);
+      }
       if (pokerHandResult == null)
       {
          pokerHandResult = checkTwoPair(rankList, rankCountMap);
@@ -131,6 +135,28 @@ public class PokerHandEvaluator
          return null;
 
       return new PokerHandResult(PokerHandType.THREEOFAKIND, createRankListAddingUnusedRanks(newRankList, rankList));
+   }
+
+   public PokerHandResult checkStraight(List<Rank> rankList)
+   {
+      int startIndex = 0;
+
+      if (rankList.get(0) == Rank.ACE && rankList.get(1) == Rank.FIVE)
+         startIndex = 1;
+
+      for (int i = startIndex; i < 4; i++)
+      {
+         int thisCard = rankList.get(i).ordinal();
+         int nextCard = rankList.get(i + 1).ordinal();
+
+         if (thisCard != nextCard + 1)
+            return null;
+      }
+
+      List<Rank> newRankList = new ArrayList();
+      newRankList.add(rankList.get(startIndex));
+
+      return new PokerHandResult(PokerHandType.STRAIGHT, newRankList);
    }
 
    private List<Rank> createRankListAddingUnusedRanks(List<Rank> alreadyUsedRanks, List<Rank> ranksToCheck)

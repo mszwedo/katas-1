@@ -93,4 +93,32 @@ public class PokerHandEvaluatorTest
       assertEquals(Rank.KING, orderedRankList.get(1));
       assertEquals(Rank.NINE, orderedRankList.get(2));
    }
+   @Test
+   public void testResultEvaluatorStraight()
+   {
+      PokerHandEvaluator pokerHandEvaluator = new PokerHandEvaluator();
+
+      PokerHand hand = HandFactory.createHand("2H 3D 4S 5C 6D");
+      PokerHandResult pokerHandResult = pokerHandEvaluator.evaluate(hand);
+      assertEquals(PokerHandType.STRAIGHT, pokerHandResult.getHandType());
+
+      List<Rank> orderedRankList = pokerHandResult.getOrderedRankList();
+      assertEquals(1, orderedRankList.size());
+      assertEquals(Rank.SIX, orderedRankList.get(0));
+   }
+
+   @Test
+   public void testResultEvaluatorStraightAceLow()
+   {
+      PokerHandEvaluator pokerHandEvaluator = new PokerHandEvaluator();
+
+      PokerHand hand = HandFactory.createHand("AH 2D 3S 4C 5D");
+      PokerHandResult pokerHandResult = pokerHandEvaluator.evaluate(hand);
+      assertEquals(PokerHandType.STRAIGHT, pokerHandResult.getHandType());
+
+      List<Rank> orderedRankList = pokerHandResult.getOrderedRankList();
+      assertEquals(1, orderedRankList.size());
+      assertEquals(Rank.FIVE, orderedRankList.get(0));
+   }
+
 }
