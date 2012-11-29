@@ -1,53 +1,30 @@
-buildscript {
-   repositories {
-      mavenCentral()
-   }
-   dependencies {
-      classpath "net.saliman:gradle-cobertura-plugin:1.0.0"
-   }
-}
-
 apply plugin: 'groovy'
-apply plugin:'java'
 apply plugin: 'idea'
-apply plugin: 'sonar'
-apply plugin: 'cobertura'
 
 def spockVersion = '0.7-groovy-2.0'
+def groovyVersion = '2.0.5'
+def junitVersion = '4.+'
 
 repositories {
    mavenCentral()
 }
 
 dependencies {
-   //testCompile group: 'junit', name: 'junit', version: '4.+'
+    groovy "org.codehaus.groovy:groovy-all:$groovyVersion"
 
-    groovy 'org.codehaus.groovy:groovy-all:2.0.5'
-    testCompile 'junit:junit:4.10'
+    testCompile "junit:junit:$junitVersion"
     testCompile "org.spockframework:spock-core:$spockVersion"
-// testCompile "org.spockframework:spock-spring:$spockVersion" //need if you are doing spring... fails without the spring dependencies
-    testRuntime "com.h2database:h2:1.2.147"
 }
 
-cobertura {
-   coverageFormat = 'xml'
-}
+test.testLogging.showStandardStreams = true
 
-sonar {
-   server {
-      url = "http://localhost:9000"
-   }
-   database {
-      url = "jdbc:jtds:sqlserver://localhost/sonar;SelectMethod=Cursor"
-      driverClassName = "net.sourceforge.jtds.jdbc.Driver"
-      username = "sonar"
-      password = "sonar"
-   }
-
+idea {
    project {
-      coberturaReportPath = file("build/reports/cobertura/coverage.xml")
-      dynamicAnalysis = "reuseReports"
+      ext.javaVersion = 1.6
+      jdkName = '1.6'
    }
+}
 
-
+task wrapper(type: Wrapper) {
+   gradleVersion = '1.2'
 }
