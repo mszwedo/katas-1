@@ -1,5 +1,0 @@
-!2 ''Classpaths''
-!path out/production/
-!path test-lib/fitnesse.jar
-
-[[Roman Numerals][RomanNumerals]]
